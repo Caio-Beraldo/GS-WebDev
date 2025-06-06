@@ -6,6 +6,7 @@ import Login from './routes/Login'
 import Solucao from './routes/Solucao'
 import Home from './routes/Home'
 import Error from './routes/Error'
+import Sobre from './routes/Sobre'
 function App() {
   return (
     <BrowserRouter>
@@ -17,6 +18,7 @@ function App() {
             <Route path="/cadastrar" element={<Cadastrar />} />
             <Route path="/login" element={<Login />} />
             <Route path="/solucao" element={<Solucao />} />
+            <Route path="/sobre" element={<Sobre />} />
             <Route path="*" element={<Error />} />
           </Routes>
         </main>
