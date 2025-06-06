@@ -3,6 +3,7 @@ import Nav from './components/Nav'
 import Footer from './components/Footer'
 import Cadastrar from './routes/Cadastrar'
 import Login from './routes/Login'
+import Solucao from './routes/Solucao'
 function App() {
   return (
     <BrowserRouter>
@@ -12,6 +13,7 @@ function App() {
           <Routes>
             <Route path="/cadastrar" element={<Cadastrar />} />
             <Route path="/login" element={<Login />} />
+            <Route path="/solucao" element={<Solucao />} />
           </Routes>
         </main>
         <Footer />

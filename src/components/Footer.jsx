@@ -6,7 +6,7 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-bold mb-4 flex items-center">
               <i className="fas fa-water mr-2 text-accent"></i>
-              AquaSafe
+              HydroShield
             </h3>
             <p className="text-gray-400">
               Soluções inteligentes para prevenção de enchentes urbanas.
